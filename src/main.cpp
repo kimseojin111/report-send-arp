@@ -149,5 +149,6 @@ int main(int argc, char* argv[]) {
 				fprintf(stderr, "pcap_sendpacket return %d error=%s\n", res, pcap_geterr(handle));
 			}
 	}
+	}
 	pcap_close(handle);
 }
